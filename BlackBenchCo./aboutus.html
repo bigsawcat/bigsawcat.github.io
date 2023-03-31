@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BlackBenchCo</title>
+<style>
+  * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+    background-size: contain;
+    color: #000000;
+    text-align: right;
+    padding-right: 20px;
+    background-clip: padding-box;
+    padding-left: 25px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 3px #F2C167;
+    text-transform: none;
+    padding-top: 10px;
+    background-image: url(assets/bonfire.jpg);
+    font-size: large;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background-color: #BEBEBE;
+  }
+  #main > nav {
+    order: -1;
+    color: #000000;
+    background-color: #BEBEBE;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: large;
+	}
+  nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+  header, footer, article, nav, aside {
+    padding: 1em;
+    background-color: #BEBEBE;
+  }
+  header, footer {
+    height: 20vh;
+    background-color: #000000;
+    color: #FFE200;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    vertical-align: baseline;
+    text-shadow: 0px 8px 2px #7C7C7C;
+    font-style: normal;
+    font-size: 75px;
+    font-weight: bolder;
+    line-height: 75px;
+    text-decoration: none;
+    word-spacing: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+	aside img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #BEBEBE;
+	}
+footer {
+    font-size: large;
+    font-family: cursive, fantasy, "Kailasa Bold";
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    color: #FFE200;
+    font-weight: bolder;
+    font-style: oblique;
+}
+</style>
+</head>
+<body>
+<header>About Us</header>
+<div id="main">
+    <article>
+		<h2>Welcome to Black Bench Co.</h2>
+    We are a family-owned business specializing in custom benches made from a variety of materials with a focus on sustainability and functionality. Established in 2019, our company takes pride in producing high-quality benches using a combination of Japanese preservation technique Shou Sugi Ban and wood joinery with varying inlay elements ranging from metal to recycled precious plastics. Our signature style includes introducing materials in a noir finish, giving our benches a unique and elegant look. At Black Bench Co, we are committed to providing our customers with personalized service and creating bespoke pieces that reflect their style and taste. Thank you for considering Black Bench Co for your custom bench needs.</article>
+	
+  <nav> - <a 
+		href="BlackBenchCoIndex.html">Home</a> - <a 
+		href="aboutus.html">About Us</a> - <a 
+		href="contact.html">Contact</a> - <a  
+		href="portfolio.html">Portfolio</a> - 
+    <img src="assets/tree.png" width="50" height="50" alt="Oak Tree"><br></nav>
+    <aside><img src="assets/blackbench1.png" width="150" height="175" alt="Bench 1">
+    <img src="assets/blackbench2.png" width="150" height="175" alt="Bench 2">
+	<img src="assets/blackbench3.png" width="150" height="175" alt="Bench 3"></aside>
+  </div>
+  <footer><em><strong></strong>"From wood and flame our craft transcends the temporal challenges of time"</em></footer>
+</body>
+</html>
